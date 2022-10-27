@@ -1,0 +1,12 @@
+img,img:hover,.post-centro,.post-centro:hover{
+    transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out;
+}
+.blurea:hover {
+    filter: blur(5px);
+}
+.zoomea:hover {
+    -webkit-transform:scale(1.05);transform:scale(1.05);
+}
+.links:hover{
+    background-color: lightgreen;
+}

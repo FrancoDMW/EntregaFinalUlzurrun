@@ -1,0 +1,17 @@
+{
+  "name": "preentrega2ulzurrun-version2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000O\u0000n\u0000c\u0000e\u0000C\u0000o\u0000m\u0000i\u0000c\u0000s\u0000C\u0000o\u0000d\u0000e\u0000r\u0000H\u0000o\u0000u\u0000s\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
