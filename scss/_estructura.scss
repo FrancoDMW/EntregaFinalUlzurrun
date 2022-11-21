@@ -24,6 +24,15 @@ footer{
     height: 100%;
 }
 
+.tamañoIconos{
+    width:40px;
+    height:40px;
+}
+
+.centrar{
+    align-items: center;
+}
+
 @media (min-width: 150px) and (max-width:770px){
     .tamañoAltura{
         height: 60%;
@@ -32,7 +41,7 @@ footer{
 
 @media (min-width: 150px) and (max-width:770px){
     .centrarAltura{
-        display:grid;
-        place-items: center;
+        margin-top: 10px;
+        margin-bottom: -10px;
     }
 }

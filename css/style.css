@@ -21,14 +21,21 @@ footer {
   width: 100%;
   height: 100%; }
 
+.tamañoIconos {
+  width: 40px;
+  height: 40px; }
+
+.centrar {
+  align-items: center; }
+
 @media (min-width: 150px) and (max-width: 770px) {
   .tamañoAltura {
     height: 60%; } }
 
 @media (min-width: 150px) and (max-width: 770px) {
   .centrarAltura {
-    display: grid;
-    place-items: center; } }
+    margin-top: 10px;
+    margin-bottom: -10px; } }
 
 img, img:hover, .post-centro, .post-centro:hover {
   transition: all .5s ease-in-out;
@@ -44,6 +51,19 @@ img, img:hover, .post-centro, .post-centro:hover {
 .links:hover {
   background-color: lightgreen; }
 
+.img__description {
+  position: absolute;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s; }
+
+.visible:hover {
+  visibility: visible;
+  opacity: 1; }
+
 .divTransparente {
   background-color: rgba(0, 0, 0, 0.7); }
 
@@ -52,6 +72,10 @@ img, img:hover, .post-centro, .post-centro:hover {
 
 .textoBlanco {
   color: white; }
+
+@media (min-width: 150px) and (max-width: 770px) {
+  #carouselExampleIndicators, .carousel-inner, .carouselExampleIndicators, .container {
+    align-self: center; } }
 
 .fuenteMontserrat {
   font-family: 'Montserrat', sans-serif; }

@@ -1,6 +1,14 @@
 @import "estructura";
 @import "animaciones";
 @import "colores";
+@media (min-width: 150px) and (max-width: 770px) {
+
+    #carouselExampleIndicators, .carousel-inner, .carouselExampleIndicators, .container{
+
+    align-self: center;
+    
+    }
+  }
 .fuenteMontserrat{
     font-family: 'Montserrat', sans-serif;
 }

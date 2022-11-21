@@ -10,3 +10,19 @@ img,img:hover,.post-centro,.post-centro:hover{
 .links:hover{
     background-color: lightgreen;
 }
+
+.img__description {
+    position: absolute;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.visible:hover {
+    visibility: visible;
+    opacity: 1;
+}
